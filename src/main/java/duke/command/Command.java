@@ -5,6 +5,7 @@ import duke.task.Task;
 
 public abstract class Command {
     protected String taskItem;
+
     public Command(String taskItem){
         this.taskItem = taskItem;
     }
